@@ -11,7 +11,8 @@ var config = {
     chapters: [{
             id: 'Saurimo',
             title: 'Saurimo',
-            image: 'https://d2drhpw56bvoc4.cloudfront.net/wp-content/uploads/2016/07/26134356/201607_WASH-Bie_Edson-Monteiro2.jpg',
+            video: 'https://www.youtube.com/watch?v=7s5WrI3bZ8o',
+            // image: 'https://d2drhpw56bvoc4.cloudfront.net/wp-content/uploads/2016/07/26134356/201607_WASH-Bie_Edson-Monteiro2.jpg',
             description: 'The capital of Lunda Sul, a majority of the province population lives here.',
             location: {
                 center: [20.38438, -9.67590],
