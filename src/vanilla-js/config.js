@@ -25,11 +25,33 @@ var config = {
             }],
             onChapterExit: [{
                 layer: 'Saurimo Health Facilities',
-                opacity: 0.65
+                opacity: 0
             }]
         },
+
         {
             id: 'Saurimo-2',
+            title: 'Saurimo',
+            image: 'https://d2drhpw56bvoc4.cloudfront.net/wp-content/uploads/2016/07/26134356/201607_WASH-Bie_Edson-Monteiro2.jpg',
+            description: 'The capital of Lunda Sul, a majority of the province population lives here.',
+            location: {
+                center: [20.38438, -9.67590],
+                zoom: 12.42,
+                pitch: 19.00,
+                bearing: 0.16
+            },
+            onChapterEnter: [{
+                layer: 'Saurimo Color Health',
+                opacity: 0.65
+            }],
+            onChapterExit: [{
+                layer: 'Saurimo Color Health',
+                opacity: 0
+            }]
+        },
+
+        {
+            id: 'Saurimo-3',
             title: 'Saurimo',
             image: 'https://d2drhpw56bvoc4.cloudfront.net/wp-content/uploads/2016/07/26134356/201607_WASH-Bie_Edson-Monteiro2.jpg',
             description: 'The ECONOMIC BREAKDOWN',
@@ -59,7 +81,7 @@ var config = {
             ]
         },
         {
-            id: 'Saurimo-3',
+            id: 'Saurimo-4',
             title: 'Saurimo',
             image: 'https://d2drhpw56bvoc4.cloudfront.net/wp-content/uploads/2016/07/26134356/201607_WASH-Bie_Edson-Monteiro2.jpg',
             description: 'The health facility compared to fake neighborhoods TEEEEST',
@@ -75,7 +97,7 @@ var config = {
                 },
                 {
                     layer: 'Saurimo Fake Treatment',
-                    opacity: 0.65
+                    opacity: 1
                 }
             ],
             onChapterExit: [{
@@ -101,13 +123,23 @@ var config = {
                 bearing: -56.80
             },
             onChapterEnter: [{
-                layer: 'Saurimo Health Facilities',
-                opacity: 0.65
-            }],
+                    layer: 'Saurimo Health Facilities',
+                    opacity: 0.65
+                },
+                {
+                    layer: 'Saurimo Fake Treatment',
+                    opacity: 1
+                }
+            ],
             onChapterExit: [{
-                layer: 'Saurimo Health Facilities',
-                opacity: 0.65
-            }, ]
+                    layer: 'Saurimo Health Facilities',
+                    opacity: 0.65
+                },
+                {
+                    layer: 'Saurimo Fake Treatment',
+                    opacity: 1
+                }
+            ]
         },
 
         {
@@ -128,11 +160,8 @@ var config = {
             onChapterExit: [{
                 layer: 'Saurimo Health Facilities',
                 opacity: 0.65
-            }, ]
+            }],
         },
-
-
-
 
         {
             id: 'HOS-Mulombe',
