@@ -21,7 +21,7 @@ var config = {
             },
             onChapterEnter: [{
                 layer: 'Saurimo Health Facilities',
-                opacity: 1
+                opacity: 0.65
             }],
             onChapterExit: [{
                 layer: 'Saurimo Health Facilities',
@@ -41,9 +41,14 @@ var config = {
                 bearing: 0.16
             },
             onChapterEnter: [{
-                layer: 'Saurimo Color Health',
-                opacity: 0.65
-            }],
+                    layer: 'Saurimo Health Facilities',
+                    opacity: 0
+                },
+                {
+                    layer: 'Saurimo Color Health',
+                    opacity: 0.65
+                }
+            ],
             onChapterExit: [{
                 layer: 'Saurimo Color Health',
                 opacity: 0
@@ -84,7 +89,7 @@ var config = {
             id: 'Saurimo-4',
             title: 'Saurimo',
             image: 'https://d2drhpw56bvoc4.cloudfront.net/wp-content/uploads/2016/07/26134356/201607_WASH-Bie_Edson-Monteiro2.jpg',
-            description: 'The health facility compared to fake neighborhoods TEEEEST',
+            description: 'The health facility compared to fake neighborhoods',
             location: {
                 center: [20.38438, -9.67590],
                 zoom: 12.42,
@@ -97,18 +102,13 @@ var config = {
                 },
                 {
                     layer: 'Saurimo Fake Treatment',
-                    opacity: 1
+                    opacity: 0.65
                 }
             ],
             onChapterExit: [{
-                    layer: 'Saurimo Health Facilities',
-                    opacity: 0.65
-                },
-                {
-                    layer: 'Saurimo Fake Treatment',
-                    opacity: 0
-                }
-            ]
+                layer: 'Saurimo Fake Treatment',
+                opacity: 0
+            }]
         },
 
         {
