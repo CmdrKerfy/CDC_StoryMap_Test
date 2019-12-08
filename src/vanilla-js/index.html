@@ -35,16 +35,18 @@
             width: 90vw;
             padding: 2vh;
             text-align: center;
+            opacity: 0.90;
         }
         
         #footer {
             width: 100%;
             min-height: 5vh;
-            padding-top: 2vh;
-            padding-bottom: 2vh;
+            padding-top: 0.10vh;
+            padding-bottom: 0.10vh;
             text-align: center;
             line-height: 25px;
             font-size: 13px;
+            border-radius: 0px;
         }
         
         #features {
@@ -76,6 +78,18 @@
         .dark {
             color: #fafafa;
             background-color: #444;
+        }
+        
+        .blue {
+            color: #fafafa;
+            background-color: #415f8e;
+            border-radius: 40px;
+        }
+        
+        .red {
+            color: #fafafa;
+            background-color: #934541;
+            border-radius: 40px;
         }
         
         .step {
@@ -154,7 +168,7 @@
         }
 
         if (config.subtitle) {
-            var subtitleText = document.createElement('h2');
+            var subtitleText = document.createElement('h3');
             subtitleText.innerText = config.subtitle;
             header.appendChild(subtitleText);
         }
@@ -176,7 +190,7 @@
             var chapter = document.createElement('div');
 
             if (record.title) {
-                var title = document.createElement('h3');
+                var title = document.createElement('h2');
                 title.innerText = record.title;
                 chapter.appendChild(title);
             }

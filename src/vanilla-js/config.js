@@ -2,94 +2,85 @@ var config = {
     style: 'mapbox://styles/kerfy/ck3sxk1cp0ja41cmotxd0gspb',
     accessToken: 'pk.eyJ1Ijoia2VyZnkiLCJhIjoiY2szOTE0dG43MDE4dDNqbzZ4ajdld3A1eCJ9.IYIY3O7YU3fZvR2izUZUGQ',
     showMarkers: false,
-    theme: 'dark',
+    theme: 'red',
     alignment: 'left',
-    title: 'Health Facility Status in Saurimo, Angola',
-    subtitle: 'Success and Failures in an Expanding Program',
-    byline: 'By Users',
-    footer: 'Source: Users',
-    chapters: [
-        {
+    title: '[FAKE] Health Facility Status in Saurimo, Angola',
+    subtitle: '[FAKE] Success and Failures in an Expanding Program',
+    byline: 'By PEPFAR/CDC/Angola',
+    footer: 'Source: All information is fake and inaccurate.',
+    chapters: [{
             id: 'Saurimo',
             title: 'Saurimo',
             image: 'https://d2drhpw56bvoc4.cloudfront.net/wp-content/uploads/2016/07/26134356/201607_WASH-Bie_Edson-Monteiro2.jpg',
             description: 'The capital of Lunda Sul, a majority of the province population lives here.',
             location: {
-                center: [20.39438, -9.66590],
-                zoom: 13.42,
+                center: [20.38438, -9.67590],
+                zoom: 12.42,
                 pitch: 19.00,
                 bearing: 0.16
             },
-            onChapterEnter: [
-                {
-                     layer: 'Saurimo Health Facilities',
-                     opacity: 1
-                }
-            ],
-            onChapterExit: [
-                {
-                     layer: 'Saurimo Health Facilities',
-                     opacity: 0.65
-                }
-            ]
+            onChapterEnter: [{
+                layer: 'Saurimo Health Facilities',
+                opacity: 1
+            }],
+            onChapterExit: [{
+                layer: 'Saurimo Health Facilities',
+                opacity: 0.65
+            }]
         },
         {
-            id: 'Saurimo',
+            id: 'Saurimo-2',
             title: 'Saurimo',
             image: 'https://d2drhpw56bvoc4.cloudfront.net/wp-content/uploads/2016/07/26134356/201607_WASH-Bie_Edson-Monteiro2.jpg',
             description: 'The ECONOMIC BREAKDOWN',
             location: {
-                center: [20.39438, -9.66590],
-                zoom: 13.42,
+                center: [20.38438, -9.67590],
+                zoom: 12.42,
                 pitch: 19.00,
                 bearing: 0.16
             },
-            onChapterEnter: [
-                {
-                     layer: 'Saurimo Health Facilities',
-                     opacity: 0.65
+            onChapterEnter: [{
+                    layer: 'Saurimo Health Facilities',
+                    opacity: 0.65
                 },
-                {          
+                {
                     layer: 'Saurimo Fake Economic',
                     opacity: 0.65
                 }
             ],
-            onChapterExit: [
-                {
+            onChapterExit: [{
                     layer: 'Saurimo Fake Economic',
                     opacity: 0
                 },
                 {
-                     layer: 'Saurimo Health Facilities',
-                     opacity: 0.65
+                    layer: 'Saurimo Health Facilities',
+                    opacity: 0.65
                 }
             ]
         },
         {
-            id: 'Saurimo',
+            id: 'Saurimo-3',
             title: 'Saurimo',
             image: 'https://d2drhpw56bvoc4.cloudfront.net/wp-content/uploads/2016/07/26134356/201607_WASH-Bie_Edson-Monteiro2.jpg',
             description: 'The health facility compared to fake neighborhoods TEEEEST',
             location: {
-                center: [20.39438, -9.66590],
-                zoom: 13.42,
+                center: [20.38438, -9.67590],
+                zoom: 12.42,
                 pitch: 19.00,
                 bearing: 0.16
             },
-            onChapterEnter: [
-                {
-                     layer: 'Saurimo Health Facilities',
-                     opacity: 0.65
+            onChapterEnter: [{
+                    layer: 'Saurimo Health Facilities',
+                    opacity: 0.65
                 },
                 {
                     layer: 'Saurimo Fake Treatment',
-                    opacity: 0.55
+                    opacity: 0.65
                 }
             ],
-            onChapterExit: [
-                {
-                     layer: 'Saurimo Health Facilities',
-                     opacity: 0.65
+            onChapterExit: [{
+                    layer: 'Saurimo Health Facilities',
+                    opacity: 0.65
                 },
                 {
                     layer: 'Saurimo Fake Treatment',
@@ -97,7 +88,7 @@ var config = {
                 }
             ]
         },
-        
+
         {
             id: 'HOS-Province',
             title: 'Hospital Provincial Lunda Sul',
@@ -109,19 +100,40 @@ var config = {
                 pitch: 51.00,
                 bearing: -56.80
             },
-            onChapterEnter: [
-                {
-                    layer: 'Saurimo Health Facilities',
-                    opacity: 1
-                }
-            ],
-            onChapterExit: [
-                {
-                     layer: 'Saurimo Health Facilities',
-                     opacity: 0.65
-                },
-            ]
+            onChapterEnter: [{
+                layer: 'Saurimo Health Facilities',
+                opacity: 0.65
+            }],
+            onChapterExit: [{
+                layer: 'Saurimo Health Facilities',
+                opacity: 0.65
+            }, ]
         },
+
+        {
+            id: 'HOS-Province-2',
+            title: 'Hospital Provincial Lunda Sul',
+            image: 'http://s2.reutersmedia.net/resources/r/?m=02&d=20181025&t=2&i=1318543827&r=LYNXNPEE9O16B&w=1200',
+            description: 'The main hospital within Saurimo, this location also includes the Centro Materno Infantil de Saurimo.',
+            location: {
+                center: [20.39212, -9.66001],
+                zoom: 17.00,
+                pitch: 51.00,
+                bearing: -56.80
+            },
+            onChapterEnter: [{
+                layer: 'Saurimo Health Facilities',
+                opacity: 0.65
+            }],
+            onChapterExit: [{
+                layer: 'Saurimo Health Facilities',
+                opacity: 0.65
+            }, ]
+        },
+
+
+
+
         {
             id: 'HOS-Mulombe',
             title: 'Centro de Saude Mulombe',
@@ -133,18 +145,14 @@ var config = {
                 pitch: 30.00,
                 bearing: -16.32
             },
-            onChapterEnter: [
-                {
-                     layer: 'Saurimo Health Facilities',
-                     opacity: 0.65
-                },
-            ],
-            onChapterExit: [
-                {
-                     layer: 'Saurimo Health Facilities',
-                     opacity: 0.65
-                },
-            ]
+            onChapterEnter: [{
+                layer: 'Saurimo Health Facilities',
+                opacity: 0.65
+            }, ],
+            onChapterExit: [{
+                layer: 'Saurimo Health Facilities',
+                opacity: 0.65
+            }, ]
         }
     ]
 };
