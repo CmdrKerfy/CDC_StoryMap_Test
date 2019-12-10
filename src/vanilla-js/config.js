@@ -138,7 +138,7 @@ var config = {
                 },
                 {
                     layer: 'Saurimo Fake Treatment',
-                    opacity: 1
+                    opacity: 0
                 }
             ]
         },
