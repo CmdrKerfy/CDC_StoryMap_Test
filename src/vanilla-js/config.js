@@ -52,7 +52,7 @@ var config = {
             ],
             onChapterExit: [{
                 layer: 'Saurimo Color Health',
-                opacity: 0
+                opacity: 0.65
             }]
         },
 
@@ -68,7 +68,7 @@ var config = {
                 bearing: 0.16
             },
             onChapterEnter: [{
-                    layer: 'Saurimo Health Facilities',
+                    layer: 'Saurimo Color Health',
                     opacity: 0.65
                 },
                 {
@@ -81,7 +81,7 @@ var config = {
                     opacity: 0
                 },
                 {
-                    layer: 'Saurimo Health Facilities',
+                    layer: 'Saurimo Color Health',
                     opacity: 0.65
                 }
             ]
@@ -98,7 +98,7 @@ var config = {
                 bearing: 0.16
             },
             onChapterEnter: [{
-                    layer: 'Saurimo Health Facilities',
+                    layer: 'Saurimo Color Health',
                     opacity: 0.65
                 },
                 {
@@ -124,7 +124,7 @@ var config = {
                 bearing: -56.80
             },
             onChapterEnter: [{
-                    layer: 'Saurimo Health Facilities',
+                    layer: 'Saurimo Color Health',
                     opacity: 0.65
                 },
                 {
@@ -133,7 +133,7 @@ var config = {
                 }
             ],
             onChapterExit: [{
-                    layer: 'Saurimo Health Facilities',
+                    layer: 'Saurimo Color Health',
                     opacity: 0.65
                 },
                 {
@@ -155,11 +155,11 @@ var config = {
                 bearing: -56.80
             },
             onChapterEnter: [{
-                layer: 'Saurimo Health Facilities',
+                layer: 'Saurimo Color Health',
                 opacity: 0.65
             }],
             onChapterExit: [{
-                layer: 'Saurimo Health Facilities',
+                layer: 'Saurimo Color Health',
                 opacity: 0.65
             }],
         },
@@ -176,11 +176,11 @@ var config = {
                 bearing: -16.32
             },
             onChapterEnter: [{
-                layer: 'Saurimo Health Facilities',
+                layer: 'Saurimo Color Health',
                 opacity: 0.65
             }, ],
             onChapterExit: [{
-                layer: 'Saurimo Health Facilities',
+                layer: 'Saurimo Color Health',
                 opacity: 0.65
             }, ]
         }
