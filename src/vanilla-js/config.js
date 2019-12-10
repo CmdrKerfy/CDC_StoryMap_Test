@@ -32,7 +32,6 @@ var config = {
 
         {
             id: 'Saurimo-2',
-            title: 'Saurimo',
             description: 'Within the city limits are six health faclities with one a few kilometers north of the city. Based on the last in-province assessment, three facilities are preforming above expectations (green), two are preforming at expectation (yellow), and two are preforming significantly below expectations.',
             location: {
                 center: [20.38438, -9.67590],
@@ -129,6 +128,10 @@ var config = {
             onChapterEnter: [{
                     layer: 'Saurimo Color Health',
                     opacity: 0.65
+                },
+                {
+                    layer: 'S Health Labels',
+                    opacity: 0  
                 },
                 {
                     layer: 'Saurimo Fake Treatment',
