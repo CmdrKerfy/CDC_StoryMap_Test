@@ -6,7 +6,7 @@ var config = {
     alignment: 'left',
     title: '[FAKE] Health Facility Status in Saurimo, Angola',
     subtitle: '[FAKE] Success and Failures in an Expanding Program',
-    byline: 'By PEPFAR/CDC/Angola',
+    byline: 'By PEPMAR/CWC/Angola',
     footer: 'Source: All information is fake and inaccurate.',
     chapters: [{
             id: 'Saurimo',
