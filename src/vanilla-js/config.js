@@ -33,8 +33,7 @@ var config = {
         {
             id: 'Saurimo-2',
             title: 'Saurimo',
-            image: 'https://d2drhpw56bvoc4.cloudfront.net/wp-content/uploads/2016/07/26134356/201607_WASH-Bie_Edson-Monteiro2.jpg',
-            description: 'The capital of Lunda Sul, a majority of the province population lives here.',
+            description: 'Within the city limits are six health faclities with one a few kilometers north of the city. Based on the last in-province assessment, three facilities are preforming above expectations (green), two are preforming at expectation (yellow), and two are preforming significantly below expectations.',
             location: {
                 center: [20.38438, -9.67590],
                 zoom: 12.42,
