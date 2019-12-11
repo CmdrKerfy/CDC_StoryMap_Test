@@ -131,7 +131,7 @@ var config = {
                 },
                 { 
                     layer: 'Saurimo Buildings',
-                    opacity: 0.65
+                    opacity: 0.45
                 },
                 {
                     layer: 'S Health Labels',
