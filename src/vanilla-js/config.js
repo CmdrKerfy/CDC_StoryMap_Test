@@ -129,13 +129,17 @@ var config = {
                     layer: 'Saurimo Color Health',
                     opacity: 0.65
                 },
+                { 
+                    layer: 'Saurimo Buildings',
+                    opacity: 0.65
+                },
                 {
                     layer: 'S Health Labels',
                     opacity: 0  
                 },
                 {
                     layer: 'Saurimo Fake Treatment',
-                    opacity: 1
+                    opacity: 0.65
                 }
             ],
             onChapterExit: [{
@@ -145,7 +149,11 @@ var config = {
                 {
                     layer: 'Saurimo Fake Treatment',
                     opacity: 0
-                }
+                },
+                { 
+                    layer: 'Saurimo Buildings',
+                    opacity: 0
+                },
             ]
         },
 
